@@ -5,11 +5,11 @@ html {
 }
 
 .title {
-  font-size: 2em;
+  font-size: 3em;
   color: white;
   position: absolute;
   top: 0;
-  left: 43%;
+  left: 39%;
   font-family: "Nunito", sans-serif;
 }
 
@@ -38,12 +38,15 @@ html {
   border: none;
   color: white;
   position: absolute;
-  top: 6.9%;
-  right: 15%;
+  top: 5.25rem;
+  right: 6rem;
+  font-family: "Nunito", sans-serif;
+  
 }
 
 .open-instructions:hover {
   cursor: pointer;
+  font-weight: 800;
 }
 
 .close-instructions {
@@ -58,6 +61,7 @@ html {
 
 .close-instructions:hover {
   cursor: pointer;
+  font-weight: 550;
 }
 
 .overlay {
@@ -69,4 +73,22 @@ html {
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
   z-index: 5;
+}
+
+.start-btn {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  margin: auto;
+  font-size: 2em;
+  position: absolute;
+  top: 15rem;
+  left: 45.9%;
+}
+
+.start-btn:hover {
+  cursor: pointer;
+  font-weight: 800;
 }
