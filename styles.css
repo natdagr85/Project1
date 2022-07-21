@@ -41,7 +41,6 @@ html {
   top: 5.25rem;
   right: 6rem;
   font-family: "Nunito", sans-serif;
-  
 }
 
 .open-instructions:hover {
@@ -89,6 +88,44 @@ html {
 }
 
 .start-btn:hover {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.q1,
+.q2,
+.q3,
+.q4,
+.q5 {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1.75rem 3.5rem;
+  margin-top: 10rem;
+  margin-left: 20%;
+  margin-right: 15%;
+  border: none;
+  background-color: #fff;
+  color: #444;
+  border-radius: 2em;
+  font-family: "Nunito", sans-serif;
+  z-index: 1;
+}
+
+.submit {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  margin: auto;
+  font-size: 2em;
+  position: absolute;
+  top: 28rem;
+  left: 45.9%;
+}
+
+.submit:hover {
   cursor: pointer;
   font-weight: 800;
 }
