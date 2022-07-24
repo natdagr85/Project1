@@ -5,11 +5,11 @@ html {
 }
 
 .title {
-  font-size: 3em;
+  font-size: 5em;
   color: white;
   position: absolute;
   top: 0;
-  left: 39%;
+  left: 33%;
   font-family: "Nunito", sans-serif;
 }
 
@@ -38,9 +38,11 @@ html {
   border: none;
   color: white;
   position: absolute;
-  top: 5.25rem;
+  top: 8rem;
   right: 6rem;
   font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
 }
 
 .open-instructions:hover {
@@ -81,10 +83,10 @@ html {
   color: white;
   font-family: "Nunito", sans-serif;
   margin: auto;
-  font-size: 2em;
+  font-size: 4em;
   position: absolute;
   top: 15rem;
-  left: 45.9%;
+  left: 41.5%;
 }
 
 .start-btn:hover {
@@ -92,24 +94,23 @@ html {
   font-weight: 800;
 }
 
-.q1,
-.q2,
-.q3,
-.q4,
-.q5 {
+.quiz {
   position: absolute;
   font-size: 1rem;
   font-weight: 400;
   padding: 1.75rem 3.5rem;
   margin-top: 10rem;
   margin-left: 20%;
-  margin-right: 15%;
+  margin-right: 20%;
+  left: 7rem;
+  top: 3rem;
   border: none;
   background-color: #fff;
   color: #444;
   border-radius: 2em;
   font-family: "Nunito", sans-serif;
   z-index: 1;
+  text-align: center;
 }
 
 .submit {
@@ -121,11 +122,18 @@ html {
   margin: auto;
   font-size: 2em;
   position: absolute;
-  top: 28rem;
-  left: 45.9%;
+  top: 4rem;
+  left: 10%;
 }
 
 .submit:hover {
   cursor: pointer;
   font-weight: 800;
+}
+
+.q2,
+.q3,
+.q4,
+.q5 {
+  margin-top: 4rem;
 }
