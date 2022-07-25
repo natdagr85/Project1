@@ -7,6 +7,7 @@ const start = document.querySelector(".start-btn");
 const submit = document.querySelector(".submit");
 const scoreOverlay = document.querySelector(".score-overlay");
 const scoreP = document.querySelector(".score-p");
+const restart = document.querySelector(".rst-btn");
 
 const answers = [false, true, false, true, true];
 let input = [];
@@ -80,7 +81,17 @@ submit.addEventListener("click", function finish() {
   } else if (answers[4] == input[4]) {
     score += 20;
   }
-
+  document.querySelector(".score-p").textContent = `Your Score: ${score}%`;
   blur.classList.remove("hidden");
   scoreOverlay.classList.remove("hidden");
+});
+
+restart.addEventListener("click", function rst() {
+  scoreOverlay.classList.add("hidden");
+  blur.classList.add("hidden");
+  quiz.classList.add("hidden");
+  submit.classList.add("hidden");
+  openInst.classList.remove("hidden");
+  score = 0;
+  input = [];
 });
