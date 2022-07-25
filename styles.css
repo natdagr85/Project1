@@ -137,3 +137,50 @@ html {
 .q5 {
   margin-top: 4rem;
 }
+
+.q1t:focus,
+.q2t:focus,
+.q3t:focus,
+.q4t:focus,
+.q5t:focus {
+  background-color: green;
+}
+
+.q1f:focus,
+.q2f:focus,
+.q3f:focus,
+.q4f:focus,
+.q5f:focus {
+  background-color: red;
+}
+
+.score-overlay {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 1.75rem 3.5rem;
+  margin-top: 7rem;
+  margin-left: 20%;
+  margin-right: 15%;
+  border: none;
+  background-color: #fff;
+  color: #444;
+  border-radius: 2em;
+  font-family: "Nunito", sans-serif;
+  left: 8.8rem;
+  top: 9rem;
+  z-index: 10;
+}
+
+.rst-btn {
+  font-family: "Nunito", sans-serif;
+  border: none;
+  background-color: white;
+  font-size: 1.5rem;
+}
+
+.rst-btn:hover {
+  cursor: pointer;
+  font-weight: 800;
+}
