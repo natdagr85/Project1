@@ -72,13 +72,17 @@ document.querySelector(".q5f").addEventListener("click", function truebtn() {
 submit.addEventListener("click", function finish() {
   if (answers[0] == input[0]) {
     score += 20;
-  } else if (answers[1] == input[1]) {
+  }
+  if (answers[1] == input[1]) {
     score += 20;
-  } else if (answers[2] == input[2]) {
+  }
+  if (answers[2] == input[2]) {
     score += 20;
-  } else if (answers[3] == input[3]) {
+  }
+  if (answers[3] == input[3]) {
     score += 20;
-  } else if (answers[4] == input[4]) {
+  }
+  if (answers[4] == input[4]) {
     score += 20;
   }
   document.querySelector(".score-p").textContent = `Your Score: ${score}%`;
